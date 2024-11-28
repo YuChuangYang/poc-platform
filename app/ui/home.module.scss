@@ -1,0 +1,33 @@
+.sider{
+    height: 100vh;
+}
+
+.logoContainer {
+    height: 56px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.loginContainer {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    .loginMain{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid #ccc;
+        padding: 30px;
+        box-sizing: border-box;
+        border-radius: 15px;
+        h3{
+            height: 50px;
+            line-height: 50px;
+        }
+    }
+}
+
